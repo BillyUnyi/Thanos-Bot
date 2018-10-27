@@ -1,0 +1,11 @@
+c:\users\the unyi family\source\repos\Thanos Bot\Thanos Bot\bin\Debug\netcoreapp2.1\Thanos Bot.deps.json
+c:\users\the unyi family\source\repos\Thanos Bot\Thanos Bot\bin\Debug\netcoreapp2.1\Thanos Bot.runtimeconfig.json
+c:\users\the unyi family\source\repos\Thanos Bot\Thanos Bot\bin\Debug\netcoreapp2.1\Thanos Bot.runtimeconfig.dev.json
+c:\users\the unyi family\source\repos\Thanos Bot\Thanos Bot\bin\Debug\netcoreapp2.1\Thanos Bot.dll
+c:\users\the unyi family\source\repos\Thanos Bot\Thanos Bot\obj\Debug\netcoreapp2.1\Thanos Bot.csproj.CoreCompileInputs.cache
+c:\users\the unyi family\source\repos\Thanos Bot\Thanos Bot\obj\Debug\netcoreapp2.1\Thanos Bot.AssemblyInfoInputs.cache
+c:\users\the unyi family\source\repos\Thanos Bot\Thanos Bot\obj\Debug\netcoreapp2.1\Thanos Bot.AssemblyInfo.cs
+c:\users\the unyi family\source\repos\Thanos Bot\Thanos Bot\obj\Debug\netcoreapp2.1\Thanos Bot.csprojAssemblyReference.cache
+C:\Users\The Unyi Family\source\repos\Thanos Bot\Thanos Bot\bin\Debug\netcoreapp2.1\Thanos Bot.pdb
+C:\Users\The Unyi Family\source\repos\Thanos Bot\Thanos Bot\obj\Debug\netcoreapp2.1\Thanos Bot.dll
+C:\Users\The Unyi Family\source\repos\Thanos Bot\Thanos Bot\obj\Debug\netcoreapp2.1\Thanos Bot.pdb
