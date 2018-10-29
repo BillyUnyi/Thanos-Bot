@@ -28,6 +28,7 @@ STATUS = ["Obtaining The Infinity Gauntlet", "Taking Over Xandar", "Obtaining Th
               "Stopped By Thor", "Snapping", "Balancing The Universe", "Watching The Sun Set On A Grateful Universe",
               "Watching The Sun Set On A Grateful Universe", "Watching The Sun Set On A Grateful Universe"]
 PHIL = ["My Inspiration!", "My Mentor.", "Sensei Swift ._.", "A Worthy Rival.", "My Second In Command"]
+catching = None
 client = commands.Bot(command_prefix = "=")
 client.remove_command("help")
 
@@ -46,6 +47,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+    global catching
     author = message.author
     content = message.content
     channel = message.channel
@@ -61,6 +63,10 @@ async def on_message(message):
     thanos = text.find("thanos")
     gnome = text.find("gnome")
     catch = text.find("<:tha:470422784137232384>")
+    if catching != None and catching == channel:
+        await client.send_message(catching, "<:NOS:470422818262220800>")
+        asyncio.sleep(1)
+        catching = None
     if str(author) != "Thanos Bot#5469":
         if balance != -1:
             await client.send_message(channel, "As all things should be.")
@@ -73,8 +79,7 @@ async def on_message(message):
         elif gnome != -1:
             await client.send_message(channel, "<:Gnome:501183728622764042> <:Gnome:501183728622764042> <:Gnome:501183728622764042>")
         elif catch != -1:
-            await asyncio.sleep(10)
-            await client.send_message(channel, "<:NOS:470422818262220800>")
+            catching = channel
     await client.process_commands(message)
 
 @client.event
