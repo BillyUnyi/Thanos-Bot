@@ -1,3 +1,7 @@
+# ThanosBot.py
+Here is a repository for my discord bot.
+Below is some info on discord.py
+
 # discord.py
 
 [![PyPI](https://img.shields.io/pypi/v/discord.py.svg)](https://pypi.python.org/pypi/discord.py/)
