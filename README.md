@@ -1,5 +1,6 @@
 # ThanosBot.py
 Here is a repository for my discord bot.
+
 Below is some info on discord.py
 
 # discord.py
