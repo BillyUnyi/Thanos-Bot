@@ -1,1 +1,1 @@
-eyzalts: node program.cs
+worker: python ThanosBot.py
