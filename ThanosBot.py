@@ -65,8 +65,8 @@ async def on_message(message):
     catch = text.find("<:tha:470422784137232384>")
     if catching != None and catching == channel:
         await client.send_message(catching, "<:NOS:470422818262220800>")
-        asyncio.sleep(1)
         catching = None
+        asyncio.sleep(1)
     if str(author) != "Thanos Bot#5469":
         if balance != -1:
             await client.send_message(channel, "As all things should be.")
