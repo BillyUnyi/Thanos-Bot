@@ -5,7 +5,9 @@ import asyncio
 from discord.ext import commands
 from itertools import cycle
 
-TOKEN = "NTA0NzU4MzQ1OTI4ODAyMzA0.DrZDBQ.2GGWBMamLjZYAyYqM7CY-kWqDis"
+file = open("Bot Token", "r")
+TOKEN = file.read()
+file.close()
 QUOTES = ["Fun isn’t something one considers when balancing the universe. But this… does put a smile on my face.",
               "When I’m done, half of humanity will still exist. Perfectly balanced, as all things should be. I hope they remember you.",
               "You’re strong. But I could snap my fingers, and you’d all cease to exist.", "The end is near.",
